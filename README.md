@@ -72,3 +72,12 @@ Sure, here's a summarized version of the information you provided:
 - Input: Base address of the array in $a0, Number of elements in $a1.
 - Description: Identifies values in the array that are greater than or equal to 70, representing students eligible for a semester abroad.
 - Output: The base address of a new array containing eligible students' grades is returned in $v0. The number of eligible students is returned in $v1.
+
+
+## Snippets 
+Sorted array in the memory
+![Sorted array in the memory](https://github.com/sarahelfeel04/MIPS-Selection-Sort/assets/142936159/a0b399d6-4087-4989-9878-05695a43156e)
+
+Register files and their final values
+![Register files and their final values](https://github.com/sarahelfeel04/MIPS-Selection-Sort/assets/142936159/7ada3e92-2e52-4faa-a89f-1777034c843a)
+
