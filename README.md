@@ -1,6 +1,4 @@
-# MIPS-Selection-Sort
-
-# University Project: MIPS Array Manipulation Procedures
+# Project: MIPS Array Manipulation Procedures
 
 This repository contains the implementation of MIPS assembly procedures to perform various operations on an array of student grades. The procedures implemented in this project include sorting the array using the Selection Sort algorithm, finding the maximum grade, and identifying students eligible for a semester abroad based on their grades.
 
@@ -49,3 +47,28 @@ la $a0, array    # Load address of the first element of the array
 li $a1, size     # Load number of elements in the array
 jal Sem_abroad   # Call Sem_abroad procedure
 ```
+
+## My implementation
+
+Sure, here's a summarized version of the information you provided:
+
+**1. Selection Sort**
+- Input: Base address of the array in $a0, Number of elements in $a1.
+- Description: Sorts the array in ascending order using the Selection Sort algorithm. It iterates through the array and swaps elements to arrange them properly.
+- Output: The sorted array is stored in memory; no values are returned in $v0 or $v1.
+
+**2. Finding Top Rank**
+**Version 1: Top_Rank**
+- Input: Base address of the array in $a0, Number of elements in $a1.
+- Description: Scans the unsorted array to find the maximum value present in it.
+- Output: The maximum value is returned in $v0.
+
+**Version 2: Top_Rank_V2**
+- Input: Base address of the array in $a0, Number of elements in $a1.
+- Description: Assumes the array is sorted and directly returns the value of the last element.
+- Output: The value of the last element is returned in $v0.
+
+**3. Semester Abroad**
+- Input: Base address of the array in $a0, Number of elements in $a1.
+- Description: Identifies values in the array that are greater than or equal to 70, representing students eligible for a semester abroad.
+- Output: The base address of a new array containing eligible students' grades is returned in $v0. The number of eligible students is returned in $v1.
