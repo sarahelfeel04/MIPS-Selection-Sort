@@ -4,11 +4,6 @@
 
 This repository contains the implementation of MIPS assembly procedures to perform various operations on an array of student grades. The procedures implemented in this project include sorting the array using the Selection Sort algorithm, finding the maximum grade, and identifying students eligible for a semester abroad based on their grades.
 
-## Table of Contents
-- [Selection Sort - Sel_Sort](#selection-sort---sel_sort)
-- [Top Rank - Top_rank](#top-rank---top_rank)
-- [Semester Abroad Eligibility - Sem_abroad](#semester-abroad-eligibility---sem_abroad)
-
 ## Selection Sort - Sel_Sort
 The procedure `Sel_Sort` takes as input the address of the first element of an array and the number of elements in the array. It sorts the array using the Selection Sort algorithm, arranging the elements in ascending order.
 
